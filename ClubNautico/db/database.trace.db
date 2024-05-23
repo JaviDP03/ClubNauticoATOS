@@ -1,0 +1,96 @@
+2024-05-23 13:12:45.822413+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SOCIO" not found (this database is empty); SQL statement:
+select s1_0.id,s1_0.direccion,s1_0.dni,s1_0.fecha_nac,s1_0.nombre,s1_0.sexo from socio s1_0 [42104-224]
+2024-05-23 13:12:51.320891+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SOCIO" not found (this database is empty); SQL statement:
+select s1_0.id,s1_0.direccion,s1_0.dni,s1_0.fecha_nac,s1_0.nombre,s1_0.sexo from socio s1_0 [42104-224]
+2024-05-23 13:12:53.288447+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SOCIO" not found (this database is empty); SQL statement:
+select s1_0.id,s1_0.direccion,s1_0.dni,s1_0.fecha_nac,s1_0.nombre,s1_0.sexo from socio s1_0 [42104-224]
+2024-05-23 13:12:53.800123+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SOCIO" not found (this database is empty); SQL statement:
+select s1_0.id,s1_0.direccion,s1_0.dni,s1_0.fecha_nac,s1_0.nombre,s1_0.sexo from socio s1_0 [42104-224]
+2024-05-23 13:12:53.895190+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SOCIO" not found (this database is empty); SQL statement:
+select s1_0.id,s1_0.direccion,s1_0.dni,s1_0.fecha_nac,s1_0.nombre,s1_0.sexo from socio s1_0 [42104-224]
+2024-05-23 13:12:53.923547+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SOCIO" not found (this database is empty); SQL statement:
+select s1_0.id,s1_0.direccion,s1_0.dni,s1_0.fecha_nac,s1_0.nombre,s1_0.sexo from socio s1_0 [42104-224]
+2024-05-23 13:12:53.958023+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SOCIO" not found (this database is empty); SQL statement:
+select s1_0.id,s1_0.direccion,s1_0.dni,s1_0.fecha_nac,s1_0.nombre,s1_0.sexo from socio s1_0 [42104-224]
+2024-05-23 13:12:53.992260+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SOCIO" not found (this database is empty); SQL statement:
+select s1_0.id,s1_0.direccion,s1_0.dni,s1_0.fecha_nac,s1_0.nombre,s1_0.sexo from socio s1_0 [42104-224]
+2024-05-23 13:12:54.024273+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SOCIO" not found (this database is empty); SQL statement:
+select s1_0.id,s1_0.direccion,s1_0.dni,s1_0.fecha_nac,s1_0.nombre,s1_0.sexo from socio s1_0 [42104-224]
+2024-05-23 13:12:54.048521+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SOCIO" not found (this database is empty); SQL statement:
+select s1_0.id,s1_0.direccion,s1_0.dni,s1_0.fecha_nac,s1_0.nombre,s1_0.sexo from socio s1_0 [42104-224]
+2024-05-23 13:12:54.086096+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SOCIO" not found (this database is empty); SQL statement:
+select s1_0.id,s1_0.direccion,s1_0.dni,s1_0.fecha_nac,s1_0.nombre,s1_0.sexo from socio s1_0 [42104-224]
+2024-05-23 13:12:54.123133+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SOCIO" not found (this database is empty); SQL statement:
+select s1_0.id,s1_0.direccion,s1_0.dni,s1_0.fecha_nac,s1_0.nombre,s1_0.sexo from socio s1_0 [42104-224]
+2024-05-23 13:12:54.170829+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SOCIO" not found (this database is empty); SQL statement:
+select s1_0.id,s1_0.direccion,s1_0.dni,s1_0.fecha_nac,s1_0.nombre,s1_0.sexo from socio s1_0 [42104-224]
+2024-05-23 13:12:54.209217+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SOCIO" not found (this database is empty); SQL statement:
+select s1_0.id,s1_0.direccion,s1_0.dni,s1_0.fecha_nac,s1_0.nombre,s1_0.sexo from socio s1_0 [42104-224]
+2024-05-23 13:12:54.233986+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SOCIO" not found (this database is empty); SQL statement:
+select s1_0.id,s1_0.direccion,s1_0.dni,s1_0.fecha_nac,s1_0.nombre,s1_0.sexo from socio s1_0 [42104-224]
+2024-05-23 13:12:54.270068+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SOCIO" not found (this database is empty); SQL statement:
+select s1_0.id,s1_0.direccion,s1_0.dni,s1_0.fecha_nac,s1_0.nombre,s1_0.sexo from socio s1_0 [42104-224]
+2024-05-23 13:12:54.315267+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SOCIO" not found (this database is empty); SQL statement:
+select s1_0.id,s1_0.direccion,s1_0.dni,s1_0.fecha_nac,s1_0.nombre,s1_0.sexo from socio s1_0 [42104-224]
+2024-05-23 13:12:54.346117+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SOCIO" not found (this database is empty); SQL statement:
+select s1_0.id,s1_0.direccion,s1_0.dni,s1_0.fecha_nac,s1_0.nombre,s1_0.sexo from socio s1_0 [42104-224]
+2024-05-23 13:12:54.374154+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SOCIO" not found (this database is empty); SQL statement:
+select s1_0.id,s1_0.direccion,s1_0.dni,s1_0.fecha_nac,s1_0.nombre,s1_0.sexo from socio s1_0 [42104-224]
+2024-05-23 13:12:54.407881+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SOCIO" not found (this database is empty); SQL statement:
+select s1_0.id,s1_0.direccion,s1_0.dni,s1_0.fecha_nac,s1_0.nombre,s1_0.sexo from socio s1_0 [42104-224]
+2024-05-23 13:12:54.443840+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SOCIO" not found (this database is empty); SQL statement:
+select s1_0.id,s1_0.direccion,s1_0.dni,s1_0.fecha_nac,s1_0.nombre,s1_0.sexo from socio s1_0 [42104-224]
+2024-05-23 13:12:54.486318+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SOCIO" not found (this database is empty); SQL statement:
+select s1_0.id,s1_0.direccion,s1_0.dni,s1_0.fecha_nac,s1_0.nombre,s1_0.sexo from socio s1_0 [42104-224]
+2024-05-23 13:12:54.507108+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SOCIO" not found (this database is empty); SQL statement:
+select s1_0.id,s1_0.direccion,s1_0.dni,s1_0.fecha_nac,s1_0.nombre,s1_0.sexo from socio s1_0 [42104-224]
+2024-05-23 13:12:54.535282+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SOCIO" not found (this database is empty); SQL statement:
+select s1_0.id,s1_0.direccion,s1_0.dni,s1_0.fecha_nac,s1_0.nombre,s1_0.sexo from socio s1_0 [42104-224]
+2024-05-23 13:12:54.572595+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SOCIO" not found (this database is empty); SQL statement:
+select s1_0.id,s1_0.direccion,s1_0.dni,s1_0.fecha_nac,s1_0.nombre,s1_0.sexo from socio s1_0 [42104-224]
+2024-05-23 13:12:54.621859+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SOCIO" not found (this database is empty); SQL statement:
+select s1_0.id,s1_0.direccion,s1_0.dni,s1_0.fecha_nac,s1_0.nombre,s1_0.sexo from socio s1_0 [42104-224]
+2024-05-23 13:12:54.653580+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SOCIO" not found (this database is empty); SQL statement:
+select s1_0.id,s1_0.direccion,s1_0.dni,s1_0.fecha_nac,s1_0.nombre,s1_0.sexo from socio s1_0 [42104-224]
+2024-05-23 13:12:54.713781+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SOCIO" not found (this database is empty); SQL statement:
+select s1_0.id,s1_0.direccion,s1_0.dni,s1_0.fecha_nac,s1_0.nombre,s1_0.sexo from socio s1_0 [42104-224]
+2024-05-23 13:12:54.751918+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SOCIO" not found (this database is empty); SQL statement:
+select s1_0.id,s1_0.direccion,s1_0.dni,s1_0.fecha_nac,s1_0.nombre,s1_0.sexo from socio s1_0 [42104-224]
+2024-05-23 13:12:54.795138+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SOCIO" not found (this database is empty); SQL statement:
+select s1_0.id,s1_0.direccion,s1_0.dni,s1_0.fecha_nac,s1_0.nombre,s1_0.sexo from socio s1_0 [42104-224]
+2024-05-23 13:12:54.820267+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SOCIO" not found (this database is empty); SQL statement:
+select s1_0.id,s1_0.direccion,s1_0.dni,s1_0.fecha_nac,s1_0.nombre,s1_0.sexo from socio s1_0 [42104-224]
+2024-05-23 13:12:54.861234+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SOCIO" not found (this database is empty); SQL statement:
+select s1_0.id,s1_0.direccion,s1_0.dni,s1_0.fecha_nac,s1_0.nombre,s1_0.sexo from socio s1_0 [42104-224]
