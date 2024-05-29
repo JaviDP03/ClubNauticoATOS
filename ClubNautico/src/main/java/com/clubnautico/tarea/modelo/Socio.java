@@ -1,11 +1,16 @@
 package com.clubnautico.tarea.modelo;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
 
+import jakarta.persistence.CascadeType;
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.OneToMany;
 
 @Entity
 public class Socio {
@@ -16,10 +21,17 @@ public class Socio {
 	private char dni;
 	private String nombre;
 	private String direccion;
+	@Column(name = "fecha_nacimiento")
 	private LocalDate fechaNac;
 	private char sexo;
 
+	@OneToMany(mappedBy = "socio", cascade = CascadeType.ALL, orphanRemoval = true)
+	private List<Barco> barcos = new ArrayList<>();
+
 	// Constructor
+	public Socio() {
+	}
+
 	public Socio(Long id, char dni, String nombre, String direccion, LocalDate fechaNac, char sexo) {
 		this.id = id;
 		this.dni = dni;

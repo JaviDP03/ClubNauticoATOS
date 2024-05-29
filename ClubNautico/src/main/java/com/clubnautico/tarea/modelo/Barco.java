@@ -4,6 +4,8 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
 
 @Entity
 public class Barco {
@@ -16,7 +18,14 @@ public class Barco {
 	private int numeroAmarre;
 	private float cuota;
 
+	@ManyToOne
+	@JoinColumn(name = "fk_id_socio")
+	private Socio socio;
+
 	// Constructor
+	public Barco() {
+	}
+
 	public Barco(Long id, char matricula, String nombre, int numeroAmarre, float cuota) {
 		this.id = id;
 		this.matricula = matricula;

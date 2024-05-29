@@ -1,11 +1,15 @@
 package com.clubnautico.tarea.modelo;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
 
+import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.OneToMany;
 
 @Entity
 public class Patron {
@@ -17,7 +21,13 @@ public class Patron {
 	private String nombre;
 	private LocalDate fechaLicencia;
 
+	@OneToMany(mappedBy = "patron", cascade = CascadeType.ALL, orphanRemoval = true)
+	private List<Salida> salidas = new ArrayList<>();
+
 	// Constructor
+	public Patron() {
+	}
+
 	public Patron(Long id, char dni, String nombre, LocalDate fechaLicencia) {
 		this.id = id;
 		this.dni = dni;

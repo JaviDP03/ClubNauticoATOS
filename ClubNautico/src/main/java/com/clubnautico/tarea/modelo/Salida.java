@@ -6,6 +6,8 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
 
 @Entity
 public class Salida {
@@ -16,7 +18,14 @@ public class Salida {
 	private LocalDate fecha;
 	private String destino;
 
+	@ManyToOne
+	@JoinColumn(name = "fk_id_patron")
+	private Patron patron;
+
 	// Constructor
+	public Salida() {
+	}
+
 	public Salida(Long id, LocalDate fecha, String destino) {
 		this.id = id;
 		this.fecha = fecha;
