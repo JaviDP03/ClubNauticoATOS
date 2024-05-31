@@ -75,10 +75,18 @@ public class Barco {
 		this.cuota = cuota;
 	}
 
+	public Socio getSocio() {
+		return socio;
+	}
+
+	public void setSocio(Socio socio) {
+		this.socio = socio;
+	}
+
 	// toString
 	public String toString() {
 		return "Barco [id=" + id + ", matricula=" + matricula + ", nombre=" + nombre + ", numeroAmarre=" + numeroAmarre
-				+ ", cuota=" + cuota + "]";
+				+ ", cuota=" + cuota + ", socio=" + socio.getNombre() + "]";
 	}
 
 }

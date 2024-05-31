@@ -57,9 +57,18 @@ public class Salida {
 		this.destino = destino;
 	}
 
+	public Patron getPatron() {
+		return patron;
+	}
+
+	public void setPatron(Patron patron) {
+		this.patron = patron;
+	}
+
 	// toString
 	public String toString() {
-		return "Salida [id=" + id + ", fecha=" + fecha + ", destino=" + destino + "]";
+		return "Salida [id=" + id + ", fecha=" + fecha + ", destino=" + destino + ", patron=" + patron.getNombre()
+				+ "]";
 	}
 
 }
