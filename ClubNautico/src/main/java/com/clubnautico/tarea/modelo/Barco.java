@@ -16,7 +16,7 @@ public class Barco {
 	private String matricula;
 	private String nombre;
 	private int numeroAmarre;
-	private float cuota;
+	private double cuota;
 
 	@ManyToOne
 	@JoinColumn(name = "id_socio")
@@ -26,7 +26,7 @@ public class Barco {
 	public Barco() {
 	}
 
-	public Barco(Long id, String matricula, String nombre, int numeroAmarre, float cuota) {
+	public Barco(Long id, String matricula, String nombre, int numeroAmarre, double cuota) {
 		this.id = id;
 		this.matricula = matricula;
 		this.nombre = nombre;
@@ -67,11 +67,11 @@ public class Barco {
 		this.numeroAmarre = numeroAmarre;
 	}
 
-	public float getCuota() {
+	public double getCuota() {
 		return cuota;
 	}
 
-	public void setCuota(float cuota) {
+	public void setCuota(double cuota) {
 		this.cuota = cuota;
 	}
 
