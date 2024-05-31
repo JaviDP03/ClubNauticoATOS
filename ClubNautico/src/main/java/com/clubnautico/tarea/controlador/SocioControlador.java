@@ -25,7 +25,7 @@ public class SocioControlador {
 
 	// Obtener todos los socios
 	@GetMapping
-	public ResponseEntity<Collection<Socio>> obtenerTodosLosSocios() {
+	public ResponseEntity<Collection<Socio>> obtenerSocios() {
 		Collection<Socio> socios = socioService.getAll();
 		return new ResponseEntity<>(socios, HttpStatus.OK);
 	}

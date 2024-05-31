@@ -16,9 +16,9 @@ import jakarta.persistence.OneToMany;
 public class Socio {
 	// Propiedades de la instancia
 	@Id
-	@GeneratedValue(strategy = GenerationType.SEQUENCE)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
-	private char dni;
+	private String dni;
 	private String nombre;
 	private String direccion;
 	@Column(name = "fecha_nacimiento")
@@ -32,7 +32,7 @@ public class Socio {
 	public Socio() {
 	}
 
-	public Socio(Long id, char dni, String nombre, String direccion, LocalDate fechaNac, char sexo) {
+	public Socio(Long id, String dni, String nombre, String direccion, LocalDate fechaNac, char sexo) {
 		this.id = id;
 		this.dni = dni;
 		this.nombre = nombre;
@@ -50,11 +50,11 @@ public class Socio {
 		this.id = id;
 	}
 
-	public char getDni() {
+	public String getDni() {
 		return dni;
 	}
 
-	public void setDni(char dni) {
+	public void setDni(String dni) {
 		this.dni = dni;
 	}
 

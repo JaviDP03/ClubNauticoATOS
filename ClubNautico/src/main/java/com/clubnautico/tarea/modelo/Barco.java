@@ -11,22 +11,22 @@ import jakarta.persistence.ManyToOne;
 public class Barco {
 	// Propiedades de la instancia
 	@Id
-	@GeneratedValue(strategy = GenerationType.SEQUENCE)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
-	private char matricula;
+	private String matricula;
 	private String nombre;
 	private int numeroAmarre;
 	private float cuota;
 
 	@ManyToOne
-	@JoinColumn(name = "fk_id_socio")
+	@JoinColumn(name = "id_socio")
 	private Socio socio;
 
 	// Constructor
 	public Barco() {
 	}
 
-	public Barco(Long id, char matricula, String nombre, int numeroAmarre, float cuota) {
+	public Barco(Long id, String matricula, String nombre, int numeroAmarre, float cuota) {
 		this.id = id;
 		this.matricula = matricula;
 		this.nombre = nombre;
@@ -43,11 +43,11 @@ public class Barco {
 		this.id = id;
 	}
 
-	public char getMatricula() {
+	public String getMatricula() {
 		return matricula;
 	}
 
-	public void setMatricula(char matricula) {
+	public void setMatricula(String matricula) {
 		this.matricula = matricula;
 	}
 

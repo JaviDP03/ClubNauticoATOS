@@ -13,13 +13,13 @@ import jakarta.persistence.ManyToOne;
 public class Salida {
 	// Propiedades de la instancia
 	@Id
-	@GeneratedValue(strategy = GenerationType.SEQUENCE)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	private LocalDate fecha;
 	private String destino;
 
 	@ManyToOne
-	@JoinColumn(name = "fk_id_patron")
+	@JoinColumn(name = "id_patron")
 	private Patron patron;
 
 	// Constructor
